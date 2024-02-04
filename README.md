@@ -18,7 +18,9 @@ This is a two step process. First you build and install the parser, then you bui
 
 In the folder src/parser_plaf, type the following
 
-<pre><code>    # dune build
+<pre><code> 
+    # eval `opam config env`
+    # dune build
     # dune install
 </code></pre>
 
